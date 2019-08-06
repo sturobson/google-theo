@@ -1,0 +1,26 @@
+{
+  "name": "design-tokens-test",
+  "version": "0.0.7",
+  "description": "Design tokens, managed via Google Spreadsheets, generated using Theo",
+  "repository": "https://github.com/kaelig/google-spreadsheets-theo",
+  "author": "Kaelig Deloumeau-Prigent",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rimraf tokens",
+    "prebuild": "yarn clean",
+    "build-tokens": "node ./build-tokens.js"
+  },
+  "devDependencies": {
+    "google-spreadsheets-theo": "^1.0.4",
+    "node-fetch": "^2.6.0",
+    "rimraf": "^2.6.3",
+    "theo": "^8.1.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false
+  }
+}
