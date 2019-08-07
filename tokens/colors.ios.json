@@ -15,7 +15,7 @@
     },
     {
       "name": "colorTertiary",
-      "value": "rgb(0, 128, 0)",
+      "value": "rgb(0, 255, 255)",
       "category": "background-color",
       "type": "color"
     }

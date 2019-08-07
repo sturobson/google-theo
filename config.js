@@ -1,6 +1,6 @@
 module.exports = {
   spreadsheetUrl:
-    'https://docs.google.com/spreadsheets/d/1O0QOUUq8N-NfHmlGWa61TN6oOSdQMBaDq0lp6DsCReQ/edit#gid=0',
+    'https://docs.google.com/spreadsheets/d/1DxPJ5G_1oRlNgPg2102n-KB2wmKTOUHwyIRwfOWBM4s/edit#gid=0',
   worksheets: [
     {
       id: 1,
@@ -19,10 +19,6 @@ module.exports = {
     {
       transform: 'web',
       format: 'common.js',
-    },
-    {
-      transform: 'android',
-      format: 'android.xml',
     },
     {
       transform: 'ios',

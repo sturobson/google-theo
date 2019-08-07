@@ -1,4 +1,4 @@
 module.exports = {
-  spacingSmall: "4px",
-  spacingMedium: "8px",
+  spacingA: "4px",
+  spacingM: "8px",
 };

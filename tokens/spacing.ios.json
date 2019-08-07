@@ -1,13 +1,13 @@
 {
   "properties": [
     {
-      "name": "spacingSmall",
+      "name": "spacingA",
       "value": "4px",
       "category": "spacing",
       "type": "number"
     },
     {
-      "name": "spacingMedium",
+      "name": "spacingM",
       "value": "8px",
       "category": "spacing",
       "type": "number"
